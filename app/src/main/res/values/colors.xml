@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="BackgroundPrimaryLilac">#D0C2F9</color>
+    <color name="Purple_light">#CCBADC</color>
+    <color name="Purple_balanced">#885EAD</color>
+    <color name="Purple_dark">#551a8b</color>
+</resources>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Project: Break It Down</string>
+    <string name="start_label">Start</string>
+    <string name="stop_label">Stop</string>
+    <string name="timer_value">00:00</string>
+    <string name="interval_label">Interval:</string>
+    <string name="task_list_label">Your tasks:</string>
+    <string name="add_task">Add Task</string>
+    <string name="add_subtask">Add Subtask</string>
+    <string name="distractions_label">Distractions:</string>
+    <string name="add_distraction">Add Distraction</string>
+    <string name="repeat_distraction">Log previous</string>
+    <string name="title">Title</string>
+    <string name="priority">Priority:</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Home">Home</string>
+    <string name="Tasks">Tasks</string>
+    <string name="Distractions">Distractions</string>
+    <string name="Settings">Settings</string>
+    <string name="Distractions_label_add">New/Repeating Distraction Name:</string>
+    <string name="Edit_distraction_name">New Name:</string>
+    <string name="Priority_label_add">10 (Urgent/Important) ->
+    1 (Not Urgent/Important)</string>
+    <string name="Edit">Edit</string>
+    <string name="Remove">Remove</string>
+    <string name="Edit_distraction_description">Enter new value and press OK. Leaving the other box empty will make no change to the previous one.</string>
+</resources>
