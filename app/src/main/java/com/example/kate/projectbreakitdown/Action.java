@@ -10,10 +10,8 @@ public class Action {
     private String description = "";
     private String priority;
     private String length;
-    private String parent;
 
-    public Action(String parent, String name, String description, String priority, String length){
-        this.parent = parent;
+    public Action(String name, String description, String priority, String length){
         this.name = name;
         this.description = description;
         this.priority = priority;
@@ -38,10 +36,6 @@ public class Action {
         return length;
     }
 
-    public String getParent(){
-        return parent;
-    }
-
     //Setters for Action
     public void setName() {
         this.name = name;
@@ -59,7 +53,4 @@ public class Action {
         this.length = length;
     }
 
-    public void setParent(){
-        this.parent = parent;
-    }
 }
