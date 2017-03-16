@@ -126,10 +126,22 @@ public class DistractionsActivity extends Activity {
 
                                             if (!(new_name.equals(old_name))){
                                                 distractionsArray.get(position).setDistraction_name(new_name);
+                                                if (!(new_priority.equals(old_priority))){
+                                                    distractionsArray.get(position).setDistraction_priority(new_priority);
+                                                }
+                                            }
+                                            if (!(new_priority.equals(old_name))){
+                                                distractionsArray.get(position).setDistraction_name(new_name);
+                                                if (!(new_priority.equals(old_priority))){
+                                                    distractionsArray.get(position).setDistraction_priority(new_priority);
+                                                }
+                                            }
+                                            if (new_name.isEmpty() || new_priority.isEmpty()){
+                                                Toast.makeText(DistractionsActivity.this, "No input!", Toast.LENGTH_SHORT);
                                             }
                                             else
                                             {
-                                                Toast.makeText(DistractionsActivity.this, "No input!", Toast.LENGTH_SHORT);
+                                                Toast.makeText(DistractionsActivity.this, "Already exists!", Toast.LENGTH_SHORT);
                                             }
                                             adapter.notifyDataSetChanged();
                                         }
