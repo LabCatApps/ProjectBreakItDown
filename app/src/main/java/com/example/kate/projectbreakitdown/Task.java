@@ -1,6 +1,5 @@
 package com.example.kate.projectbreakitdown;
 
-import android.app.Activity;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -16,8 +15,7 @@ public class Task {
     private String task_duedate;
     private String task_priority;
     private String task_length;
-    private ArrayList<Action> actions = new ArrayList<>();
-
+    private ArrayList<Action> actions;
 
     //Constructor
 
@@ -28,6 +26,7 @@ public class Task {
         this.task_duedate = task_duedate;
         this.task_priority = task_priority;
         this.task_length = task_length;
+        actions = new ArrayList<>();
     }
 
 
@@ -39,23 +38,23 @@ public class Task {
     public String getTask_length(){return task_length;}
 
     //Setters of task class
-    public void setTask_title(){
+    public void setTask_title(String s){
         this.task_title = task_title;
     }
 
-    public void setTask_description(){
+    public void setTask_description(String s){
         this.task_description = task_description;
     }
 
-    public void setTask_duedate(){
+    public void setTask_duedate(String s){
         this.task_duedate = task_duedate;
     }
 
-    public void setTask_priority(){
+    public void setTask_priority(String s){
         this.task_priority = task_priority;
     }
 
-    public void setTask_length(){
+    public void setTask_length(String s){
         this.task_length = task_length;
     }
 
@@ -64,4 +63,9 @@ public class Task {
         return actions;
     }
 
+    public void setActions(ArrayList<Action> actions){
+        this.actions = this.actions;
+    }
+
 }
+
