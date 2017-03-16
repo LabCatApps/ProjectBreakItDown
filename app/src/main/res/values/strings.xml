@@ -6,7 +6,7 @@
     <string name="interval_label">Interval:</string>
     <string name="task_list_label">Your tasks:</string>
     <string name="add_task">Add Task</string>
-    <string name="add_subtask">Add Subtask</string>
+    <string name="add_action">Add Action</string>
     <string name="distractions_label">Distractions:</string>
     <string name="add_distraction">Add Distraction</string>
     <string name="repeat_distraction">Log previous</string>
